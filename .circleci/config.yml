@@ -5,3 +5,7 @@ workflows:
   maven_test:
     jobs:
       - maven/test
+general:
+  branches:
+    only:
+    - main

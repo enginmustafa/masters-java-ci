@@ -9,4 +9,6 @@ public class CiDemoController {
 	public String getName() {
 		return "CI Demo";
 	}
+	
+	private void travisTest() {	}
 }
